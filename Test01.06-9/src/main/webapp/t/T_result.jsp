@@ -111,7 +111,7 @@ SimpleDateFormat fmt1 = new SimpleDateFormat("yyyyMMddhhmmssSSS");
 </div>
 <%
 	String[] game=(String [])session.getAttribute("game");
-	String[] pgame=(String [])session.getAttribute("pgame");
+	String[] pgame=(String [])session.getAttribute("pgame"); 
 	
 	DataInsert di= new DataInsert();
 	di.insertTicket(game,pgame);

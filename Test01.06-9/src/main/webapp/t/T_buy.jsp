@@ -104,7 +104,9 @@ SimpleDateFormat fmt1 = new SimpleDateFormat("yyyyMMddhhmmssSSS");
 <%
 	String game[]=request.getParameterValues("game");
 	String p_game[]=request.getParameterValues("p_game");
-	String s1 = "";
+
+
+	 String s1 = "";
 	if (game != null) {
 		for (int i = 0; i < game.length; i++) {
 			s1 = s1 + game[i] + " ";
@@ -117,7 +119,7 @@ SimpleDateFormat fmt1 = new SimpleDateFormat("yyyyMMddhhmmssSSS");
 	if (p_game != null) {
 		for (int i = 0; i < p_game.length; i++) {
 			s2 = s2 + p_game[i] + " ";
-		}
+		} 
 		session.setAttribute("pgame", p_game);
 	}
 %>
