@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display :grid;
+	height:860px;
+	grid-template-rows: 100px 1.5px 100px 600px 60px;
+}
+
+img{
+	width:210px;
+	height:280px;
+	
+}
+#top {
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.navtop {
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.shop{
+	grid-row-start :4;
+	grid-row-end:5;
+	width :1800px;
+	height: 990px;
+	margin-top :0px;
+	margin-left : 40px;
+	padding :10px;
+	border-radius: 7px;
+	background-color: rgba(250,250,250,30%);
+	text-align :left;
+}
+#goods_title{
+	font-size:1.5em;
+}
+#goods_select{
+	margin-top:10px;
+	font-size:1.3em;
+}
+.goods{
+	width:1800px;
+	height:990px;
+	
+}
+.ga{
+	width :350px;
+	height: 600x;
+	background-color:rgba(250,250,250,70%);
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	margin-right:100px;
+	margin-left:200px;
+	padding :10px;
+	border-radius: 10px;
+}
+#ga_1{
+	font-size:1.1em;
+	
+}
+.gb{
+	width :350px;
+	height: 600x;
+	background-color:rgba(250,250,250,70%);
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	margin-right:100px;
+	margin-left:30px;
+	padding :10px;
+	border-radius: 10px;
+}
+#gb_1{
+	font-size:1.1em;
+}
+.gc{
+	width :350px;
+	height: 600x;
+	background-color:rgba(250,250,250,70%);
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	margin-right:100px;
+	margin-left:30px;
+	padding :10px;
+	border-radius: 10px;
+}
+
+#gc_1{
+	font-size:1.1em;
+}
+.gd{
+	width :350px;
+	height: 600x;
+	background-color:rgba(250,250,250,70%);
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	margin-right:100px;
+	margin-left:200px;
+	padding :10px;
+	border-radius: 10px;
+}
+
+#gd_1{
+	font-size:1.1em;
+}
+.ge{
+	width :350px;
+	height: 600x;
+	background-color:rgba(250,250,250,70%);
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	margin-right:100px;
+	margin-left:30px;
+	padding :10px;
+	border-radius: 10px;
+}
+
+#ge_1{
+	font-size:1.1em;
+}
+
+.gf{
+	width :350px;
+	height: 200x;
+	background-color:rgba(250,250,250,70%);
+	float:left;
+	text-align:center;
+	margin-top:150px;
+	margin-right:100px;
+	margin-left:30px;
+	padding :10px;
+	border-radius: 10px;
+}
+
+.gf_1 input,.gf_1 button{
+	font-size:1.1em;
+	padding:5px;
+	border:none;
+	border-radius: 50px;
+	color:balck;
+	background-color:orange;
+	cursor:pointer;
+
+}
+

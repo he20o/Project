@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 100px 1.5px 80px 800px 60px;
+	background-image:url("paris.jpg");
+	background-size:center center ;
+	background-repeat: sapce;
+	margin-top:0px;
+	
+}
+
+#top {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	background-color: #d8d1d1;
+	width: auto;
+	height: 100px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.navtop {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	margin: 0;
+	padding: 8px 12px;
+	background-color: #dedeef;
+	list-style-type: none;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.a {
+	display: flex;
+	width: 450px;
+	padding: 15px;
+	cursor: pointer;
+	text-align: center;
+	flex-direction: column;
+	background-color : #dedeef;
+	color : black;
+	text-decoration : none;
+	display : inline-block;
+}
+.a:hover {
+	background-color: white;
+}
+
+.b {
+	display: flex;
+	width: 450px;
+	padding: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	flex-direction: column;
+}
+
+.b:hover {
+	background-color: white;
+}
+
+.c {
+	display: flex;
+	width: 450px;
+	padding: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	flex-direction: column;
+}
+
+.c:hover {
+	background-color: white;
+}
+
+.d {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	padding: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+.d:hover {
+	background-color: white;
+}
+
+.e {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	padding: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+.e:hover {
+	background-color: white;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #cbdffe;
+	min-width: 450px;
+	padding: 16px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 8px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: lightpink;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropdown-button {
+	display: yellow;
+}
+
+
+#bottom {
+	width: auto;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	color:white;
+}

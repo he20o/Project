@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#goods{
+	grid-row-start :4;
+	grid-row-end:5;
+	width :1800px;
+	height: 990px;
+	margin-top :0px;
+	margin-left : 40px;
+	padding :10px;
+	border-radius: 7px;
+	background-color: rgba(250,250,250,30%);
+	text-align :left;
+}
