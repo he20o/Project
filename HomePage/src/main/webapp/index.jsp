@@ -10,14 +10,7 @@
 </head>
 <body>
 
-<%
- Selectdao dao = new Selectdao();
- Memberdto member = dao.mem("2");
- out.println(member.id);
- out.println(member.pw);
- out.println(member.name);
- 
-%>
+index
 
 
 </body>

@@ -10,8 +10,14 @@
 </head>
 <body>
 
+<form action="ticket_proc.jsp">
+	<div id="ticket_title">
+		<hr><br>
+			<b>|🚩올림픽 경기</b> 
+		</div>
 
-<form action="ticket_2.jsp">
+		<div id="ticket">
+
 			<input type="checkbox" name="game" value="펜싱"> 펜싱<br> <input
 				type="checkbox" name="game" value="유도"> 유도<br> <input
 				type="checkbox" name="game" value="골프"> 골프<br> <input
